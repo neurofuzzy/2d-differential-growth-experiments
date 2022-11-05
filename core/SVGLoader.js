@@ -3,7 +3,7 @@
 let Node = require('./Node'),
     Path = require('./Path'),
     Defaults = require('./Defaults'),
-    {SVGPathData} = require('./node_modules/svg-pathdata');
+    {SVGPathData} = require('svg-pathdata');
 
   
 /** Utility class to load an external SVG file and produce Path(s) */

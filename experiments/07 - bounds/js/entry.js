@@ -35,7 +35,10 @@ const sketch = function (p5) {
 
   // Draw ---------------------------------------------------------------
   p5.draw = function () {
-    world.iterate();
+
+    for (let i = 0; i < 20; i++) {
+      world.iterate();
+    }
     world.draw();
 
     drawFrame();

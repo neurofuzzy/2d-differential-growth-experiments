@@ -1,6 +1,6 @@
 /** @module Bounds */
 
-let inside = require('./node_modules/point-in-polygon');
+let inside = require('point-in-polygon');
 
 /** Polygonal container for Paths that can constrain them to particular shapes */
 class Bounds {

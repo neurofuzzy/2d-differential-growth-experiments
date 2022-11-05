@@ -1,6 +1,6 @@
 /** @module Node */
 
-let Vec2 = require('./node_modules/vec2'),
+let Vec2 = require('vec2'),
     Defaults = require('./Defaults');
 
 

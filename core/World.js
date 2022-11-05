@@ -1,8 +1,8 @@
 /** @module World */
 
-let rbush = require('./node_modules/rbush'),
-    toPath = require('./node_modules/svg-points/').toPath,
-    saveAs = require('./node_modules/file-saver').saveAs,
+let rbush = require('rbush'),
+    toPath = require('svg-points/').toPath,
+    saveAs = require('file-saver').saveAs,
     Defaults = require('./Defaults');
 
 /** Manages a set of Paths and provides some global control mechanisms, such as pausing the simulation. */

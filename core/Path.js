@@ -1,6 +1,6 @@
 /** @module Path */
 
-let knn = require('./node_modules/rbush-knn'),
+let knn = require('rbush-knn'),
     Node = require('./Node'),
     Bounds = require('./Bounds'),
     Defaults = require('./Defaults');

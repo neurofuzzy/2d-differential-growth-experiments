@@ -1,4 +1,4 @@
-const WebMidi = require('./node_modules/webmidi');
+const WebMidi = require('webmidi');
 
 class MIDIControl {
   constructor() {
